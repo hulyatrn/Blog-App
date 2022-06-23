@@ -1,0 +1,34 @@
+{
+  "yazilar": [
+    {
+      "ad": "Mai ve Siyah",
+      "aciklama": "Lorem ipsum",
+      "yazar": "Halit Ziya Uşaklıgil",
+      "id": 1
+    },
+    {
+      "ad": "Dudaktan Kalbe",
+      "aciklama": "Lorem ipsum",
+      "yazar": "Reşat Nuri Güntekin",
+      "id": 2
+    },
+    {
+      "ad": "Tutunamayanlar",
+      "aciklama": "Lorem ipsum",
+      "yazar": "Oğuz Atay",
+      "id": 3
+    },
+    {
+      "ad": "George Orwell",
+      "aciklama": "Lorem ipsum",
+      "yazar": "Hayvan Çiftliği",
+      "id": 4
+    },
+    {
+      "ad": "fareler ve insanlar",
+      "aciklama": "fareler",
+      "yazar": "hulya",
+      "id": 5
+    }
+  ]
+}

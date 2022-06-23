@@ -1,13 +1,132 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&family=Poppins&family=Roboto:wght@400;500&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ececec;
+  color: #333;
+  font-family:'Open Sans', sans-serif;
+  ;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin:0 auto;
+  border-bottom: 1px solid rgb(175, 171, 171);
+}
+
+.navbar h1 {
+  color: rgb(226, 55, 84);
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: rgba(248, 164, 178, 0.555);
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+  cursor: pointer;
+}
+
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+.blog-preview h2 {
+  font-size: 30px;
+  color: #3c6382;
+}
+
+.blog-details h2 {
+  font-size: 30px;
+  color: #3c6382;
+  margin-bottom: 10px;
+}
+
+.blog-details div {
+  margin: 30px 0;
+}
+
+.loading {
+  font-size: 50px;
+  color: #ff3f3f;
+}
+
+.error {
+  color: rgb(136, 8, 115);
+  font-size: 50px;
+}
+
+.write{
+  color: red;
+}
+
+.new-post {
+  background-color: rgb(194, 191, 191);
+  color: white;
+  border-radius: 8px;
+  text-shadow: 2px 2px rgb(243, 102, 125);
+}
+
+.new-post:hover {
+  background-color: rgb(194, 191, 191);
+  color: rgb(253, 234, 234);
+  border-radius: 8px;
+  text-shadow: 2px 2px rgb(236, 98, 121);
+}
+
+.create {
+  max-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding:  6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button {
+  background-color: rgb(37, 31, 36);
+  color: white;
+  font-size: 18px;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
